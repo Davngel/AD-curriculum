@@ -2,7 +2,7 @@
 :root {
 
   --bg-gradient-onyx: radial-gradient(circle, #0800e3, #001cae, #001e78, #0d1843, #0e0e10);
-  --bg-gradient-jet:linear-gradient(to right top, #051937, #04204b, #08275f, #152d73, #253287);
+  --bg-gradient-jet:radial-gradient(circle, #0f88b6, #007bd5, #006af1, #004fff, #1b00fb);
 
   /* solid */
 
@@ -523,7 +523,7 @@ main {
 }
 
 .timeline-list span {
-  color: grey;
+  color: whitesmoke;
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
