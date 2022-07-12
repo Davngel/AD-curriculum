@@ -1,7 +1,7 @@
 
 :root {
 
-  --bg-gradient-onyx: radial-gradient(circle, #0800e3, #001cae, #001e78, #0d1843, #0e0e10);
+  --bg-gradient-onyx: black;
   --bg-gradient-jet:radial-gradient(circle, #0f88b6, #007bd5, #006af1, #004fff, #1b00fb);
 
   /* solid */
@@ -301,16 +301,16 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--bg-gradient-jet);
+  background: black;
   transition: var(--transition-1);
   z-index: -1;
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: var(--blue-crayola); }
+.info_more-btn:focus { background: var(--bg-gradient-jet); color: white }
 
 .info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--blue-crayola); }
+.info_more-btn:focus::before { background: var(--bg-gradient-jet)}
 
 .info_more-btn span { display: none; }
 
@@ -452,7 +452,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--bg-gradient-onyx);
+  background: var(--bg-gradient-jet);
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-1);
@@ -463,7 +463,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--bg-gradient-onyx);
   border-radius: inherit;
   z-index: -1;
 }
@@ -589,7 +589,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--blue-crayola);
+  background: blue;
   height: 100%;
   border-radius: inherit;
 }
